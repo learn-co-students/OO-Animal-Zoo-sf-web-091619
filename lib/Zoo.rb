@@ -1,6 +1,5 @@
 class Zoo
     attr_accessor :name, :location
-    attr_reader :animals
     @@all = []
     def initialize(name, location)
         @name = name
